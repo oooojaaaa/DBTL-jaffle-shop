@@ -50,7 +50,7 @@ joined as (
 
     from customers
 
-    left join customer_orders_summary
+    left join customer_orders_summary   
         on customers.customer_id = customer_orders_summary.customer_id
 
 )
